@@ -33,3 +33,5 @@ player1 = Player("Steffen")
 print(player1.num_of_games)
 print(player1.rock_count)
 print(player1.rock_ratio)
+
+### ++++++
