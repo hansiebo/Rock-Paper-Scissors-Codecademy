@@ -1,5 +1,8 @@
 import classes as cl
 
+dict = {"info 1": "infotest", "player": "newplayer"}
+
+
 # 1. INTRO | WELCOME
 print("Welcome to our Tic Tac Toe Game!"+ "\n")
 start = input("Type 'GO' to get started! " + "\n" + "\n")
@@ -18,9 +21,6 @@ if key in dict:
   print(dict[key])
 else: 
    
-
-dict = {"info1": "info", "player": "newplayer"}
-
 
 commands_text = "blablablablablablablablabla"
    
