@@ -47,10 +47,10 @@ entry = input("Type 'GO' to get started! " + "\n" + "\n")
 check_for_commands(entry)
 
 while (entry.upper() != "GO"):
-  entry = input("Awww, you don't want to play? That's ok. But if you do want to play, type 'GO' to get started." + "\n" + "\n")
+  entry = input("\n" + "Awww, you don't want to play? That's ok. But if you do want to play, type 'GO' to get started." + "\n" + "\n")
   check_for_commands(entry)
 
-entry = input("Awesome! Let's get started!" + "\n")
+entry = input("\n" + "Awesome! Let's get started!" + "\n")
 check_for_commands(entry)
 
   
