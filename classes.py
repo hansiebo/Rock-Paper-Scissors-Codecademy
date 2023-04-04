@@ -84,17 +84,3 @@ class Game():
 
     def __repr__(self):
         return "The players name is " + self.name
-
-
-# TEST
-
-# player1 = Player("Steffen")
-
-# print(player1.number_of_games)
-# print(player1.rock_count)
-# print(player1.rock_ratio)
-
-### ++++++
-
-
-# player1.set_name("Julia")
