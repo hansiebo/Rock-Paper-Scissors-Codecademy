@@ -88,13 +88,13 @@ class Game():
 
 # TEST
 
-player1 = Player("Steffen")
+# player1 = Player("Steffen")
 
-print(player1.number_of_games)
-print(player1.rock_count)
-print(player1.rock_ratio)
+# print(player1.number_of_games)
+# print(player1.rock_count)
+# print(player1.rock_ratio)
 
 ### ++++++
 
 
-player1.set_name("Julia")
+# player1.set_name("Julia")
