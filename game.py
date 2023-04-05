@@ -106,11 +106,36 @@ check_for_commands(entry)
 
 add_player()
 
-#fu.get_active_player(active_player)
 get_active_player()
 
 # 3. INITIATE GAME
-entry = input("Alright! Now it's time to play!" + "\n")
+entry = input("Alright! Now it's time to play, " + str(active_player.name) + "!" + "\n")
 check_for_commands(entry)
+
+entry = input("Type 'START' to start a new game! " + "\n" + "\n")
+check_for_commands(entry)
+
+while (entry.upper() != "START"):
+  entry = input("\n" + "Awww, no game? If you want to start a game, type 'START'. " + "\n" + "\n")
+  check_for_commands(entry)
+
+entry = input("\n" + "Alright! Now we need to figure out who you want to play against! " + "\n" + "\n")
+check_for_commands(entry)
+
+entry = input("The following players are available:" + "\n" + "\n")
+check_for_commands(entry)
+
+for player in players:
+  if player == active_player.name:
+    continue
+  print(players[player])
+
+opponent = input("Type the name of the player you want to play against. " + "\n" + "\n")
+check_for_commands(opponent)
+
+entry = input("\n" + str(opponent) + ", do you want to accept the challenge? (y/n) " + "\n" + "\n")
+check_for_commands(entry)
+
+
 
 # 4. PLAY
